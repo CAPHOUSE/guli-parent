@@ -29,7 +29,7 @@ public class MsmServiceImpl implements MsmService {
         String host = "https://dfsns.market.alicloudapi.com";
         String path = "/data/send_sms";
         String method = "POST";
-        String appcode = "e159e027fd0441d79b5dc217bf3d422c";
+        String appcode = "";
 
 //        生成验证码
         String code = RandomUtil.getFourBitRandom();
